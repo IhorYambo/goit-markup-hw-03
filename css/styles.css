@@ -1,0 +1,227 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #FFFFFF;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
+li {
+    list-style: none;
+}
+.container {
+    width: 1158px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+img,
+ul {
+    margin: 0;
+    padding: 0;
+}
+section {
+
+}
+/* #region header */
+.logo {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #4d5ae5;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 332px;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    border-bottom: 1px #E7E9FC;
+}
+.page-nav {
+    display: flex;
+    gap: 76px;
+}
+.list-nav {
+    display: flex;
+    gap: 40px;
+}
+.logo-head {
+    font-weight: 700;
+    color: #2E2F42;
+}
+.page-nav .list-nav .link {
+    font-weight: 500;
+    text-decoration: none;
+    color: #2E2F42;
+}
+.page-nav .list-nav .link:hover,
+.page-nav .list-nav .link:focus {
+    color: #404BBF;
+}
+.page-address {
+    font-style: normal;
+}
+.page-address .link {
+    text-decoration: none;
+    color: #434455;
+}
+.page-address .link:hover,
+.page-address .link:focus {
+    color: #404BBF;
+}
+.listing-address {
+    display: flex;
+    gap: 40px;
+}
+/* #endregion header */
+/* #region section solutions */
+.sec-solutions {
+    background-color: #2E2F42;
+}
+
+.sec-solutions .page-title {
+    
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 188px 316px 48px 316px;
+}
+.sec-solutions .button {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    background-color: #4d5ae5;
+    cursor: pointer;
+    padding: 16px 32px;
+    margin: 0 472px 188px 472px;
+    white-space: nowrap;
+    border-radius: 4px;
+}
+.sec-solutions .button:hover,
+.sec-solutions .button:focus {
+    background-color: #404BBF;
+}
+/* #endregion section solutions */
+/* #region adventages */
+.sec-advantages .club-list {
+    display: flex;
+    padding: 120px 0;
+    gap: 24px;
+    justify-content: space-between;
+}
+.club-list .title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    padding-bottom: 8px;
+}
+/* #endregion adventages */
+/* #region our team */
+.sec-team {
+    background-color: #F4F4FD;
+}
+.sec-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    text-align: center;
+    white-space: nowrap;
+    color: #2E2F42;
+    padding: 120px 0 72px;
+}
+.page-listing {
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    padding-bottom: 120px;
+}
+.sec-team .page-list {
+    background-color: #FFFFFF;
+    border-radius: 4px;
+}
+.sec-team .page-list .title {
+    text-align: center;
+    padding-bottom: 8px;
+}
+.sec-team .page-list .text-list {
+    text-align: center;
+    padding-bottom: 32px
+}
+.title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
+    padding-top: 32px;
+}
+/* #endregion our team */
+/* #region Portfolio */
+.sec-portfolio .club-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 24px;
+    padding-bottom: 120px;
+}
+.sec-portfolio .club-list .page-list {
+    margin-bottom: 48px;
+}
+.sec-portfolio .club-list .title {
+    padding-left: 16px;
+    border-right: solid #E7E9FC 1px;
+    border-left: solid #E7E9FC 1px;
+}
+.sec-portfolio .club-list .text-list {
+    padding-bottom: 32px;
+    padding-left: 16px;
+    border-right: solid #E7E9FC 1px;
+    border-bottom: solid #E7E9FC 1px;
+    border-left: solid #E7E9FC 1px;
+}
+/* #endregion Portfolio */
+/* #region footer */
+.sec-footer {
+    background-color: #2E2F42;
+}
+.logo-foot {
+    font-weight: 700;
+    color: #F4F4FD;
+}
+.sec-footer .logo {
+    padding: 100px 0 0 0;
+}
+.sec-footer .text-list {
+    color: #F4F4FD;
+    padding: 16px 866px 100px 0;
+}
+/* #endregion footer */
