@@ -66,7 +66,6 @@ img {
 .header .container {
     display: flex;
     justify-content: space-between;
-    gap: 332px;
     padding-top: 24px;
     padding-bottom: 24px;
     padding-left: 15px;
@@ -89,8 +88,10 @@ img {
 .page-nav .list-nav .link {
     font-weight: 500;
     text-decoration: none;
-    padding: 24px 0;
     color: #2E2F42;
+
+    padding: 24px 0;
+    
 }
 .page-nav .list-nav .link:hover,
 .page-nav .list-nav .link:focus {
@@ -117,6 +118,7 @@ img {
 /* #region section solutions */
 .sec-solutions {
     background-color: #2E2F42;
+
     padding: 188px 0;
 }
 .sec-solutions .page-title {
@@ -174,12 +176,14 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
+
     margin-bottom: 8px;
 }
 /* #endregion adventages */
 /* #region our team */
 .sec-team {
     background-color: #F4F4FD;
+
     padding: 120px 0;
 }
 .sec-title {
@@ -188,20 +192,21 @@ img {
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
+    color: #2E2F42;
+
     text-align: center;
     white-space: nowrap;
-    color: #2E2F42;
     margin-bottom: 72px;
 }
 .page-listing {
     display: flex;
     justify-content: center;
     gap: 24px;
-    padding-bottom: 120px;
 }
 .sec-team .list {
-    flex-basis: calc((100% - 72px) / 4);
     background-color: #FFFFFF;
+
+    flex-basis: calc((100% - 72px) / 4);
     border-radius: 0px 0px 4px 4px;
 }
 .sec-team .page-listing .list .name {
@@ -209,6 +214,7 @@ img {
 }
 .sec-team .list .title {
     text-align: center;
+
     margin-bottom: 8px;
 }
 .sec-team .list .text-list {
@@ -220,7 +226,7 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: #2E2F42;
-    padding-top: 32px;
+    
 }
 /* #endregion our team */
 /* #region Portfolio */
@@ -233,36 +239,30 @@ img {
     justify-content: space-between;
     gap: 24px;
 }
-.sec-portfolio .club-list .page-list {
-    row-gap: 48px;
-}
 .sec-portfolio .con-portfolio {
     padding: 32px 16px;
     border: 1px solid #E7E9FC;
     border-top: none;
 }
-.sec-portfolio .club-list .title {
-    padding-left: 16px;
-}
-.sec-portfolio .club-list .text-list {
-
-}
 /* #endregion Portfolio */
 /* #region footer */
 .sec-footer {
     background-color: #2E2F42;
+
     padding: 100px 0;
 }
 .logo-foot {
-    display: inline-block;
     font-weight: 700;
     color: #F4F4FD;
+
+    display: inline-block;
 }
 .sec-footer .logo {
     margin-bottom: 16px;
 }
 .sec-footer .text-list {
     color: #F4F4FD;
+    
     padding-right:866px;
 }
 /* #endregion footer */
