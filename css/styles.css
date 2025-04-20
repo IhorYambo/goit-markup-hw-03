@@ -67,8 +67,13 @@ img {
     margin-right: 76px;
 }
 .header .head-container {
+    width: 1158px;
+    margin: 0 auto;
     display: flex;
+    margin-left: auto;
+    margin-right: auto;
     justify-content: space-between;
+    padding: 0 15px;
     padding-top: 24px;
     padding-bottom: 24px;
     border-bottom: 1px solid #E7E9FC;
@@ -89,6 +94,7 @@ img {
 .page-nav .list-nav .link {
     font-weight: 500;
     text-decoration: none;
+    padding: 24px 0;
     color: #2E2F42;    
 }
 .page-nav .list-nav .link:hover,
