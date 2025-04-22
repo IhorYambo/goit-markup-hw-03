@@ -66,12 +66,10 @@ img {
     margin-right: 76px;
 }
 .header .head-container {
-    
-    
     display: flex;
-    justify-content: space-between;
-    padding-top: 24px;
-    padding-bottom: 24px;
+    /* justify-content: space-between; */
+    /* padding-top: 24px; */
+    /* padding-bottom: 24px; */
     border-bottom: 1px solid #E7E9FC;
 }
 .page-nav {
@@ -165,7 +163,7 @@ img {
 .sec-advantages .club-list {
     display: flex;
     gap: 24px;
-    justify-content: space-between;
+    /* justify-content: space-between; */
 }
 .sec-advantages .club-list .list {
     flex-basis: calc((100% - 72px) / 4);
